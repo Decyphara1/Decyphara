@@ -1,0 +1,149 @@
+* {
+    width: auto;
+    box-sizing: border-box;
+    width: auto;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0%;
+    margin: 0%;
+    color: white;
+    flex-wrap: wrap;
+}
+body {
+    flex-shrink: inherit;
+}
+@media (max-width: 600px) {
+    body {
+        background-color: black;
+    }
+}
+@media (min-width: 550px) {
+    body {
+        background-color: black;
+    }
+}
+.header {
+    background: black;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.header .img img {
+    padding-left: 10px;
+}
+.stories {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.stories img {
+    width: auto;
+    border-radius: 50%;
+    border: 2.5px dotted;
+    border-color: orange purple red yellow;
+}
+.storiesname {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5px;
+    padding-left: 10px;
+}
+.video {
+    margin-left: 5px;
+    width: auto;
+}
+.video .story1 .post img {
+    border-radius: 50%;
+    border: 2.5px dotted;
+    border-color: orange purple red yellow;
+}
+.footer ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer ul li {
+    text-decoration: none;
+    list-style-type: none;
+}
+.footer ul .profile li a img {
+    border-radius: 50%;
+    border: 2px;
+    border-style: solid;
+    border-color: orange;
+}
+.footer ul {
+    background: black;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.profile-grid {
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+}
+.profile-grid img {
+    border-radius: 50%;
+}
+.profile-grid p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.user {
+    margin-left: 40px;
+}
+.user a {
+    text-decoration: none;
+}
+.btn-grid {
+    text-align: center;
+}
+.btn-grid button {
+    background-color: rgb(104, 93, 80);
+    height: 25px;
+    width: 130px;
+    justify-content: center;
+    border-color:  rgb(104, 93, 80);
+    border-radius: 10px;
+}
+.btn-grid button a {
+    text-decoration: none;
+}
+.dera {
+    display: flex;
+    justify-content: space-evenly;
+}
+.dera img {
+    border-radius: 50%;
+    border-style: groove;
+}
+.letters {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+.postsgrid {
+    width: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.postsgrid img {
+    width: auto;
+    padding: 2px;
+}
+.display {
+    display: flex;
+    justify-content: space-evenly;
+}
